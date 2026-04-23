@@ -10,7 +10,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t $IMAGE:$TAG .'
+                sh 'docker build -t $IMAGE:$TAG ./server'
             }
         }
 
