@@ -22,7 +22,7 @@ pipeline {
 
         stage('Deploy with Helm') {
     steps {
-        echo "Helm deployment skipped for demo"
+        sh 'helm upgrade --install my-app ./my-app'
     }
 }
     }
