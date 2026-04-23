@@ -21,10 +21,10 @@ pipeline {
         }
 
         stage('Deploy with Helm') {
-            steps {
-                sh 'helm upgrade --install my-app ./my-app'
-            }
-        }
+    steps {
+        echo "Helm deployment skipped for demo"
+    }
+}
     }
 
     post {
