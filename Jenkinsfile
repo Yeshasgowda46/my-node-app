@@ -2,39 +2,25 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "yashasgowdads/my-node-app"
+        IMAGE = "yashasgowdads/my-node-app"
         TAG = "latest"
     }
 
     stages {
 
-        stage('Checkout Code') {
-            steps {
-                git branch: 'main', url: 'YOUR_GITHUB_REPO_URL'
-            }
-        }
-
-        stage('Install Dependencies') {
-            steps {
-                sh 'npm install'
-            }
-        }
-
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t $IMAGE_NAME:$TAG .'
+                sh 'docker build -t $IMAGE:$TAG .'
             }
         }
 
         stage('Push Docker Image') {
             steps {
-                withDockerRegistry([credentialsId: 'dockerhub-creds', url: '']) {
-                    sh 'docker push $IMAGE_NAME:$TAG'
-                }
+                sh 'echo "Docker push step later"'
             }
         }
 
-        stage('Deploy to Kubernetes') {
+        stage('Deploy with Helm') {
             steps {
                 sh 'helm upgrade --install my-app ./my-app'
             }
@@ -43,10 +29,10 @@ pipeline {
 
     post {
         success {
-            echo 'Pipeline SUCCESS 🚀'
+            echo 'PIPELINE SUCCESS 🚀'
         }
         failure {
-            echo 'Pipeline FAILED ❌'
+            echo 'PIPELINE FAILED ❌'
         }
     }
 }
