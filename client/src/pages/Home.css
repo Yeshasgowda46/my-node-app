@@ -1,0 +1,59 @@
+.home { padding-bottom: 60px; }
+
+.hero {
+  position: relative; min-height: 480px;
+  background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 50%, #0ea5e9 100%);
+  display: flex; align-items: center; overflow: hidden;
+}
+.hero::before {
+  content: ''; position: absolute; inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.03'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+.hero-overlay { position: absolute; inset: 0; background: rgba(0,0,0,0.15); }
+.hero-content { position: relative; z-index: 1; padding: 60px 20px; width: 100%; }
+
+.hero-title {
+  font-size: clamp(28px, 5vw, 48px); font-weight: 800; color: #fff;
+  margin-bottom: 12px; line-height: 1.2;
+}
+.hero-title span { color: #fbbf24; }
+.hero-sub { font-size: 18px; color: rgba(255,255,255,0.85); margin-bottom: 32px; }
+
+.search-box { padding: 24px; max-width: 860px; }
+.search-tabs { display: flex; gap: 4px; margin-bottom: 20px; }
+.search-tab {
+  display: flex; align-items: center; gap: 6px;
+  padding: 8px 20px; border-radius: var(--radius-sm); border: none;
+  font-size: 14px; font-weight: 600; background: var(--bg); color: var(--text-muted);
+  transition: all var(--transition);
+}
+.search-tab.active { background: var(--primary); color: #fff; }
+.search-tab:hover:not(.active) { background: var(--border); }
+
+.search-form { display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap; }
+.search-field { display: flex; flex-direction: column; gap: 6px; flex: 1; min-width: 140px; }
+.search-field.wide { flex: 2; }
+.search-field label { font-size: 12px; font-weight: 600; color: var(--text-muted); display: flex; align-items: center; gap: 4px; }
+.search-btn { white-space: nowrap; flex-shrink: 0; }
+
+.section { margin-top: 48px; }
+.section-title { font-size: 22px; font-weight: 700; margin-bottom: 20px; }
+
+.routes-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 16px; }
+.route-card {
+  padding: 20px; cursor: pointer;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.route-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+.route-cities { display: flex; align-items: center; gap: 8px; font-size: 16px; font-weight: 700; margin-bottom: 6px; }
+.route-price { font-size: 13px; color: var(--secondary); font-weight: 600; }
+
+.destinations-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 16px; }
+.destination-card {
+  padding: 24px 20px; cursor: pointer; text-align: center;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.destination-card:hover { transform: translateY(-3px); box-shadow: var(--shadow); }
+.dest-icon { color: var(--primary); margin-bottom: 10px; display: flex; justify-content: center; }
+.dest-city { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+.dest-desc { font-size: 12px; color: var(--text-muted); }

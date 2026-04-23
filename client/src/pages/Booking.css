@@ -1,0 +1,40 @@
+.booking-container { max-width: 900px; }
+.back-btn { margin-bottom: 20px; }
+
+.booking-layout { display: grid; grid-template-columns: 1fr 300px; gap: 24px; align-items: start; }
+.booking-main { padding: 28px; }
+.booking-section-title { display: flex; align-items: center; gap: 8px; font-size: 18px; font-weight: 700; margin-bottom: 20px; }
+
+.passenger-form { border: 1px solid var(--border); border-radius: var(--radius-sm); padding: 16px; margin-bottom: 12px; }
+.passenger-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+.passenger-label { font-size: 13px; font-weight: 700; color: var(--primary); }
+.passenger-fields { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 12px; }
+
+.review-section { margin-bottom: 20px; }
+.review-section h4 { font-size: 13px; font-weight: 700; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px; }
+.review-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; font-size: 14px; border-bottom: 1px solid var(--bg); }
+.review-row span:first-child { color: var(--text-muted); }
+.review-row span:last-child { font-weight: 500; }
+.review-row.total span { font-size: 16px; font-weight: 700; color: var(--primary); }
+
+.booking-summary { padding: 20px; position: sticky; top: 80px; }
+.summary-title { display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 700; margin-bottom: 12px; }
+.summary-row { display: flex; justify-content: space-between; padding: 5px 0; font-size: 13px; color: var(--text-muted); }
+.summary-row.total { font-size: 16px; font-weight: 700; color: var(--primary); }
+.summary-row.total span { color: var(--primary); }
+
+.confirmation-box {
+  max-width: 520px; margin: 0 auto; padding: 48px 40px;
+  text-align: center; display: flex; flex-direction: column; align-items: center; gap: 12px;
+}
+.confirm-icon { color: var(--success); }
+.confirmation-box h2 { font-size: 26px; font-weight: 800; }
+.confirm-ref { font-size: 14px; color: var(--text-muted); }
+.confirm-ref strong { color: var(--primary); }
+.confirm-details { width: 100%; margin: 8px 0; }
+.confirm-actions { display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin-top: 8px; }
+
+@media (max-width: 640px) {
+  .booking-layout { grid-template-columns: 1fr; }
+  .booking-summary { position: static; }
+}

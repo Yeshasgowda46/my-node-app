@@ -1,0 +1,220 @@
+[
+  {
+    "_id": "0c07fda0-e5b4-41c7-bca7-cdd85c3bbc89",
+    "createdAt": "2026-04-23T07:45:19.433Z",
+    "name": "The Taj Mahal Palace",
+    "city": "Mumbai",
+    "address": "Apollo Bunder, Colaba, Mumbai",
+    "rating": 5,
+    "pricePerNight": 18000,
+    "amenities": [
+      "WiFi",
+      "Pool",
+      "Spa",
+      "Restaurant",
+      "Gym",
+      "Bar"
+    ],
+    "description": "Iconic luxury hotel overlooking the Gateway of India.",
+    "image": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800"
+  },
+  {
+    "_id": "dbcc58ca-7df0-4b43-a21a-3d29c3f04d7a",
+    "createdAt": "2026-04-23T07:45:19.435Z",
+    "name": "ITC Grand Central",
+    "city": "Mumbai",
+    "address": "Dr Babasaheb Ambedkar Road, Parel, Mumbai",
+    "rating": 5,
+    "pricePerNight": 12000,
+    "amenities": [
+      "WiFi",
+      "Pool",
+      "Spa",
+      "Restaurant",
+      "Gym"
+    ],
+    "description": "Luxury hotel in the heart of Mumbai with exceptional dining.",
+    "image": "https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800"
+  },
+  {
+    "_id": "9cc182f8-039b-440e-a234-712287378529",
+    "createdAt": "2026-04-23T07:45:19.437Z",
+    "name": "Trident Nariman Point",
+    "city": "Mumbai",
+    "address": "Nariman Point, Mumbai",
+    "rating": 4,
+    "pricePerNight": 8500,
+    "amenities": [
+      "WiFi",
+      "Pool",
+      "Restaurant",
+      "Gym",
+      "Business Center"
+    ],
+    "description": "Contemporary hotel with stunning sea views.",
+    "image": "https://images.unsplash.com/photo-1520250497591-112f2f40a3f4?w=800"
+  },
+  {
+    "_id": "2b298e8b-0bde-41d0-82ba-ad8b6d1ca6a4",
+    "createdAt": "2026-04-23T07:45:19.438Z",
+    "name": "The Leela Palace",
+    "city": "Delhi",
+    "address": "Diplomatic Enclave, Chanakyapuri, New Delhi",
+    "rating": 5,
+    "pricePerNight": 20000,
+    "amenities": [
+      "WiFi",
+      "Pool",
+      "Spa",
+      "Restaurant",
+      "Gym",
+      "Concierge"
+    ],
+    "description": "Palatial luxury hotel in the diplomatic enclave.",
+    "image": "https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=800"
+  },
+  {
+    "_id": "05efc254-d2b7-417a-955f-84f9fd392ae2",
+    "createdAt": "2026-04-23T07:45:19.439Z",
+    "name": "Hyatt Regency Delhi",
+    "city": "Delhi",
+    "address": "Bhikaiji Cama Place, Ring Road, New Delhi",
+    "rating": 4,
+    "pricePerNight": 9000,
+    "amenities": [
+      "WiFi",
+      "Pool",
+      "Restaurant",
+      "Gym",
+      "Bar"
+    ],
+    "description": "Modern hotel with excellent connectivity and vibrant dining.",
+    "image": "https://images.unsplash.com/photo-1571003123894-1f0594d2b5d9?w=800"
+  },
+  {
+    "_id": "4f06ecd5-4706-4cd3-bef3-64255ea93bd6",
+    "createdAt": "2026-04-23T07:45:19.440Z",
+    "name": "The Imperial New Delhi",
+    "city": "Delhi",
+    "address": "Janpath, New Delhi",
+    "rating": 5,
+    "pricePerNight": 15000,
+    "amenities": [
+      "WiFi",
+      "Pool",
+      "Spa",
+      "Restaurant",
+      "Gym"
+    ],
+    "description": "A heritage landmark blending colonial grandeur with modern luxury.",
+    "image": "https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=800"
+  },
+  {
+    "_id": "485ae76b-bd9f-4ac5-9d72-d331831dc724",
+    "createdAt": "2026-04-23T07:45:19.442Z",
+    "name": "The Oberoi Bangalore",
+    "city": "Bangalore",
+    "address": "MG Road, Bangalore",
+    "rating": 5,
+    "pricePerNight": 14000,
+    "amenities": [
+      "WiFi",
+      "Pool",
+      "Spa",
+      "Restaurant",
+      "Gym"
+    ],
+    "description": "Elegant luxury hotel on MG Road with lush gardens.",
+    "image": "https://images.unsplash.com/photo-1578683010236-d716f9a3f461?w=800"
+  },
+  {
+    "_id": "025aed13-d4d8-4614-b90f-170aceecbfc0",
+    "createdAt": "2026-04-23T07:45:19.443Z",
+    "name": "Taj MG Road",
+    "city": "Bangalore",
+    "address": "41/3 MG Road, Bangalore",
+    "rating": 4,
+    "pricePerNight": 10000,
+    "amenities": [
+      "WiFi",
+      "Pool",
+      "Restaurant",
+      "Gym",
+      "Bar"
+    ],
+    "description": "Stylish hotel in the commercial hub with great dining.",
+    "image": "https://images.unsplash.com/photo-1445019980597-93fa8acb246c?w=800"
+  },
+  {
+    "_id": "ed0c0c2d-cb8c-405b-9cbb-cb359e2ee95c",
+    "createdAt": "2026-04-23T07:45:19.447Z",
+    "name": "Lemon Tree Premier",
+    "city": "Bangalore",
+    "address": "Ulsoor Road, Bangalore",
+    "rating": 3,
+    "pricePerNight": 4500,
+    "amenities": [
+      "WiFi",
+      "Pool",
+      "Restaurant",
+      "Gym"
+    ],
+    "description": "Comfortable mid-range hotel with great value for money.",
+    "image": "https://images.unsplash.com/photo-1496417263034-38ec4f0b665a?w=800"
+  },
+  {
+    "_id": "a3cdee82-88a3-4bad-9875-32eb7de2ab0c",
+    "createdAt": "2026-04-23T07:45:19.449Z",
+    "name": "ITC Grand Chola",
+    "city": "Chennai",
+    "address": "Mount Road, Chennai",
+    "rating": 5,
+    "pricePerNight": 13000,
+    "amenities": [
+      "WiFi",
+      "Pool",
+      "Spa",
+      "Restaurant",
+      "Gym",
+      "Bar"
+    ],
+    "description": "Inspired by the grandeur of the Chola dynasty.",
+    "image": "https://images.unsplash.com/photo-1549294413-26f195200c16?w=800"
+  },
+  {
+    "_id": "ab104431-e5d4-4b99-961a-61800eb422cb",
+    "createdAt": "2026-04-23T07:45:19.452Z",
+    "name": "Novotel Hyderabad",
+    "city": "Hyderabad",
+    "address": "HICC Complex, Madhapur, Hyderabad",
+    "rating": 4,
+    "pricePerNight": 7000,
+    "amenities": [
+      "WiFi",
+      "Pool",
+      "Restaurant",
+      "Gym",
+      "Business Center"
+    ],
+    "description": "Contemporary hotel adjacent to the convention center.",
+    "image": "https://images.unsplash.com/photo-1455587734955-081b22074882?w=800"
+  },
+  {
+    "_id": "e4389e35-4925-4002-a7ad-18dbf058d628",
+    "createdAt": "2026-04-23T07:45:19.454Z",
+    "name": "Vivanta Kolkata",
+    "city": "Kolkata",
+    "address": "EM Bypass, Kolkata",
+    "rating": 4,
+    "pricePerNight": 8000,
+    "amenities": [
+      "WiFi",
+      "Pool",
+      "Restaurant",
+      "Gym",
+      "Spa"
+    ],
+    "description": "Modern luxury hotel with panoramic city views.",
+    "image": "https://images.unsplash.com/photo-1522798514-97ceb8c4f1c8?w=800"
+  }
+]

@@ -1,0 +1,27 @@
+.search-header { margin-bottom: 20px; }
+.page-title { display: flex; align-items: center; gap: 10px; font-size: 24px; font-weight: 800; }
+
+.search-bar { padding: 20px; margin-bottom: 24px; }
+.search-bar-fields { display: flex; gap: 12px; align-items: flex-end; flex-wrap: wrap; }
+.search-bar-fields .form-group { flex: 1; min-width: 140px; }
+
+.results-layout { display: grid; grid-template-columns: 240px 1fr; gap: 24px; align-items: start; }
+.filters-panel { padding: 20px; position: sticky; top: 80px; }
+.filters-title { display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 700; margin-bottom: 12px; }
+
+.results-list { display: flex; flex-direction: column; gap: 16px; }
+.results-count { font-size: 14px; color: var(--text-muted); font-weight: 500; }
+
+.hotels-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
+
+.empty-state {
+  padding: 60px 20px; text-align: center;
+  display: flex; flex-direction: column; align-items: center;
+}
+.empty-state h3 { font-size: 18px; font-weight: 700; margin-bottom: 6px; }
+.empty-state p { color: var(--text-muted); font-size: 14px; }
+
+@media (max-width: 768px) {
+  .results-layout { grid-template-columns: 1fr; }
+  .filters-panel { position: static; }
+}
